@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecificationBuilder", "SpecificationBuilder\SpecificationBuilder.csproj", "{1433F332-7ED6-47CD-9938-2A7A860F98CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecificationBuilder.Tests", "SpecificationBuilder.Tests\SpecificationBuilder.Tests.csproj", "{F4661F1C-97E2-4332-98BF-6C685DDD2687}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1433F332-7ED6-47CD-9938-2A7A860F98CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1433F332-7ED6-47CD-9938-2A7A860F98CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1433F332-7ED6-47CD-9938-2A7A860F98CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1433F332-7ED6-47CD-9938-2A7A860F98CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4661F1C-97E2-4332-98BF-6C685DDD2687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4661F1C-97E2-4332-98BF-6C685DDD2687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4661F1C-97E2-4332-98BF-6C685DDD2687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4661F1C-97E2-4332-98BF-6C685DDD2687}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

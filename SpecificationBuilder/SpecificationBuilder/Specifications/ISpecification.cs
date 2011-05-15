@@ -8,6 +8,10 @@ namespace SpecificationBuilder.Specifications
         Expression<Func<Contact, bool>> BuildExpression(T x);
     }
 
+    /*
+
+
+
     public class LastNameStartsWithSpecification : ISpecification<object>
     {
         #region ISpecification<object> Members
@@ -35,4 +39,5 @@ namespace SpecificationBuilder.Specifications
             throw new NotImplementedException();
         }
     }
+*/
 }

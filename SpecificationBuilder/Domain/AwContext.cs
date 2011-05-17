@@ -18,9 +18,9 @@ namespace Domain
             modelBuilder.Entity<Contact>().ToTable("Person.Contact");
             modelBuilder.Entity<Vendor>().HasMany(p => p.Contacts).WithMany(t => t.Vendors).Map(
                 configuration => configuration.MapLeftKey("VendorId").MapRightKey("ContactId").ToTable("VendorContact"));
-            this.Configuration.LazyLoadingEnabled = false;
+            /*this.Configuration.LazyLoadingEnabled = false;
             this.Configuration.ProxyCreationEnabled = false;
-
+*/
         }
     }
 }

@@ -14,10 +14,7 @@ namespace SpecificationBuilder.Specifications
     {
         public Expression<Func<Vendor, bool>> BuildExpression(AwContext context, object input)
         {
-            var queryable = from v in context.Vendor
-                            where v.Name == "Kev"
-                            select v;
-
+           return (c) =>context.Vendor.Where(vendor => vendor.Name.StartsWith("Kev"));
         }
     }
 }
